@@ -1,0 +1,35 @@
+{
+  "name": "express-route-controller2",
+  "version": "0.0.0",
+  "description": "This is a helper function to assign controller actions to routes in express",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/andresz1/express-route-controller2.git"
+  },
+  "keywords": [
+    "express",
+    "route",
+    "routes",
+    "controller",
+    "controllers",
+    "routing",
+    "action",
+    "filters",
+    "filter",
+    "api",
+    "verb"
+  ],
+  "author": "Andres Alvarez",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/andresz1/express-route-controller2/issues"
+  },
+  "homepage": "https://github.com/andresz1/express-route-controller2",
+  "dependencies": {
+    "ctrlr": "~0.2.1"
+  }
+}
