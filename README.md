@@ -64,12 +64,12 @@ app.listen(3000);
 You can make this even more easier, by defining your routes in a `routes.json` file, like so:
 ```json
 {
-  "/grades": "mycontroller#read", // method: get
+  "/grades": "mycontroller#read", 
   "/notices/:id": { 
     "get": "mycontroller#read",
     "delete": "mycontroller#delete",
     "put": {
-      "middleware": "mycontroller#validate", // this could be an array eg: ["mc#1", "mc#2"]
+      "middleware": "mycontroller#validate",
       "handler": "mycontroller#update"
     }
   }
