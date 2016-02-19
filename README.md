@@ -8,7 +8,7 @@ doesn't get in the way at all, and you can continue to use express normally and
 define even more routes manually if you wish.
 It's focused to help in the creation of APIs.
 
-### Usage:
+### Usage
 
 In your express project install express-route-controller2:
 
