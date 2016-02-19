@@ -79,20 +79,20 @@ You can make this even more easier, by defining your routes in a `routes.json` f
 And loading the routes is as simple as:
 
 ```javascript
-//...
+// ...
 
 erc2(app, {
     controllers: __dirname + '/controllers',
     routes: require('routes.json')
 });
 
-//...
+// ...
 ```
 
 ### Feedback
 
-Pull requests, feature ideas and bug reports are welcome
+Pull requests, feature ideas and bug reports are welcome.
 
 ### License
 
-MIT
+MIT.
